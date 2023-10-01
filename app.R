@@ -6,11 +6,15 @@ library(shinydashboard)
 ui <- dashboardPage(
   dashboardHeader(title = "SynTruth"),
   dashboardSidebar(
-    tags$head(tags$style(HTML('padding-top: 10px;
-                            padding-left: 20px;
-                            display: inline-block;
-                            border-color: transparent'))),
-    p('Synthetic data generator for assessing the performance of algorithms for predicting treatment response')
+    # tags$head(tags$style(HTML('padding-top: 10px;
+    #                         padding-left: 20px;
+    #                         display: inline-block;
+    #                         border-color: transparent'))),
+    br(),
+    p('Synthetic data generator for assessing the performance of algorithms for predicting treatment response'),
+    p("More information:"),
+    a(href = "https://github.com/DoraDoraExplorer/SynTruth_pkg", "SynTruth package")
+    
   ),
   dashboardBody(
     column(6,

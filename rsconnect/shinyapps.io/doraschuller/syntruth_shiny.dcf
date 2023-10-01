@@ -1,0 +1,10 @@
+name: syntruth_shiny
+title:
+username: doraschuller
+account: doraschuller
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10047113
+bundleId: 7749362
+url: https://doraschuller.shinyapps.io/syntruth_shiny/
+version: 1
